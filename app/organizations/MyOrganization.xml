@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="walter.bates">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="responsavel1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">responsavel</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="fornecedor2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">1234</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="responsavel2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">responsavel</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Member">
+      <displayName></displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Fornecedores">
+      <displayName></displayName>
+    </group>
+    <group name="Respons&#xe1;veis">
+      <displayName></displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>Member</roleName>
+      <groupName>Fornecedores</groupName>
+    </membership>
+    <membership>
+      <userName>responsavel1</userName>
+      <roleName>Member</roleName>
+      <groupName>Respons&#xe1;veis</groupName>
+    </membership>
+    <membership>
+      <userName>fornecedor2</userName>
+      <roleName>Member</roleName>
+      <groupName>Fornecedores</groupName>
+    </membership>
+    <membership>
+      <userName>responsavel2</userName>
+      <roleName>Member</roleName>
+      <groupName>Respons&#xe1;veis</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
