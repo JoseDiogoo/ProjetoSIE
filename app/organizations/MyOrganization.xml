@@ -71,7 +71,7 @@
     </role>
     <role name="RH">
       <displayName>RH</displayName>
-      <description>Respons&#xe1;vel por recursos humanos</description>
+      <description>Responsavel por recursos humanos</description>
     </role>
   </roles>
   <groups>
@@ -102,10 +102,6 @@
       <displayName>Qualidade</displayName>
       <description>Departamento de gest&#xe3;o da qualidade</description>
     </group>
-    <group name="Recursos Humanos&#x9;">
-      <displayName>Recursos Humanos	</displayName>
-      <description>Departamento de RH</description>
-    </group>
     <group name="Financeiro">
       <displayName>Financeiro</displayName>
       <description>Departamento financeiro e gest&#xe3;o de cr&#xe9;dito</description>
@@ -114,6 +110,10 @@
       <displayName>Auditoria</displayName>
       <description>Equipa respons&#xe1;vel por auditorias e compliance&#xD;
 </description>
+    </group>
+    <group name="RecursosHumanos">
+      <displayName>RecursosHumanos</displayName>
+      <description>Departamento de RH</description>
     </group>
   </groups>
   <memberships>
