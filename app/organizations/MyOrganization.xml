@@ -26,25 +26,101 @@
       <password encrypted="false">responsavel</password>
       <customUserInfoValues/>
     </user>
+    <user userName="User1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Member">
       <displayName></displayName>
     </role>
+    <role name="Colaborador">
+      <displayName>Colaborador</displayName>
+      <description>Papel padr&#xe3;o para qualquer membro</description>
+    </role>
+    <role name="Gestor">
+      <displayName>Gestor</displayName>
+      <description>Respons&#xe1;vel de &#xe1;rea/setor</description>
+    </role>
+    <role name="Diretor">
+      <displayName>Diretor</displayName>
+      <description>Diretor ou administrador</description>
+    </role>
+    <role name="Avaliador">
+      <displayName>Avaliador</displayName>
+      <description>Respons&#xe1;vel por avalia&#xe7;&#xf5;es</description>
+    </role>
+    <role name="Fornecedor">
+      <displayName>Fornecedor</displayName>
+      <description> Papel para utilizadores fornecedores</description>
+    </role>
+    <role name="Analista">
+      <displayName>Analista</displayName>
+      <description>Fun&#xe7;&#xe3;o de an&#xe1;lise/controle</description>
+    </role>
+    <role name="Auditor">
+      <displayName>Auditor</displayName>
+      <description>Respons&#xe1;vel por auditorias e compliance</description>
+    </role>
+    <role name="Financeiro">
+      <displayName>Financeiro</displayName>
+      <description>Respons&#xe1;vel por condi&#xe7;&#xf5;es de cr&#xe9;dito</description>
+    </role>
+    <role name="RH">
+      <displayName>RH</displayName>
+      <description>Respons&#xe1;vel por recursos humanos</description>
+    </role>
   </roles>
   <groups>
-    <group name="Fornecedores">
-      <displayName></displayName>
-    </group>
     <group name="Respons&#xe1;veis">
-      <displayName></displayName>
+      <displayName>Respons&#xe1;veis</displayName>
+    </group>
+    <group name="Colaboradores">
+      <displayName>Colaboradores</displayName>
+      <description>Todos os funcion&#xe1;rios da empresa</description>
+    </group>
+    <group name="Fornecedores">
+      <displayName>Fornecedores</displayName>
+      <description>Fornecedores externos</description>
+    </group>
+    <group name="Aprovisionamento">
+      <displayName>Aprovisionamento</displayName>
+      <description>Departamento de compras e aprovisionamento</description>
+    </group>
+    <group name="Administra&#xe7;&#xe3;o">
+      <displayName>Administra&#xe7;&#xe3;o</displayName>
+      <description>Administra&#xe7;&#xe3;o e dire&#xe7;&#xe3;o geral</description>
+    </group>
+    <group name="Dire&#xe7;&#xe3;o">
+      <displayName>Dire&#xe7;&#xe3;o</displayName>
+      <description>Diretores e alta administra&#xe7;&#xe3;o</description>
+    </group>
+    <group name="Qualidade">
+      <displayName>Qualidade</displayName>
+      <description>Departamento de gest&#xe3;o da qualidade</description>
+    </group>
+    <group name="Recursos Humanos&#x9;">
+      <displayName>Recursos Humanos	</displayName>
+      <description>Departamento de RH</description>
+    </group>
+    <group name="Financeiro">
+      <displayName>Financeiro</displayName>
+      <description>Departamento financeiro e gest&#xe3;o de cr&#xe9;dito</description>
+    </group>
+    <group name="Auditoria">
+      <displayName>Auditoria</displayName>
+      <description>Equipa respons&#xe1;vel por auditorias e compliance&#xD;
+</description>
     </group>
   </groups>
   <memberships>
     <membership>
       <userName>walter.bates</userName>
       <roleName>Member</roleName>
-      <groupName>Fornecedores</groupName>
+      <groupName>Respons&#xe1;veis</groupName>
     </membership>
     <membership>
       <userName>responsavel1</userName>
@@ -53,11 +129,16 @@
     </membership>
     <membership>
       <userName>fornecedor2</userName>
-      <roleName>Member</roleName>
+      <roleName>Colaborador</roleName>
       <groupName>Fornecedores</groupName>
     </membership>
     <membership>
       <userName>responsavel2</userName>
+      <roleName>Member</roleName>
+      <groupName>Respons&#xe1;veis</groupName>
+    </membership>
+    <membership>
+      <userName>User1</userName>
       <roleName>Member</roleName>
       <groupName>Respons&#xe1;veis</groupName>
     </membership>
