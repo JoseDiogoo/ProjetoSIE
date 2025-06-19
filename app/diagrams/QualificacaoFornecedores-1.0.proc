@@ -32,7 +32,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_GMSHVzsKEfCaY-PY1hhrTw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_GMSHVjsKEfCaY-PY1hhrTw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Vm7QajsKEfCaY-PY1hhrTw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_ejyI8ExpEfC7vJQ9JxI0Zw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_CmwJAEz7EfC4eZvd8hG__g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Vm7QaTsKEfCaY-PY1hhrTw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Vm7QbDsKEfCaY-PY1hhrTw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -62,7 +62,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_eXJ-Z0CFEfCdubh3mbnM9w" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_eXJ-ZkCFEfCdubh3mbnM9w" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_eXJ-aUCFEfCdubh3mbnM9w">
-            <targetForm xmi:type="expression:Expression" xmi:id="_ejyI8UxpEfC7vJQ9JxI0Zw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_CmwJAUz7EfC4eZvd8hG__g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_eXJ-aECFEfCdubh3mbnM9w"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_eXJ-a0CFEfCdubh3mbnM9w" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -71,125 +71,147 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_swIzODsAEfCPL8DLEX40qQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_swIzOTsAEfCPL8DLEX40qQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_swIzOjsAEfCPL8DLEX40qQ" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6UxEYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6UxUYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6UxkYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoJEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoJUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoJkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6Ux0YPEfCOAYMj-HCBgg" name="fornecedorInput.nome" content="fornecedorInput.nome" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_6cPDYEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoJ0z3EfC4eZvd8hG__g" name="fornecedorInput.nome" content="fornecedorInput.nome" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_2HRUEEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6UyUYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setNome">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoKUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setNome">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6UykYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6Uy0YPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6UzEYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoKkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoK0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoLEz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6UzUYPEfCOAYMj-HCBgg" name="fornecedorInput.nif" content="fornecedorInput.nif" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7jmUEEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoLUz3EfC4eZvd8hG__g" name="fornecedorInput.nif" content="fornecedorInput.nif" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_2vRvQEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6Uz0YPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setNif">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoL0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setNif">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U0EYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U0UYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U0kYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoMEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoMUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoMkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U00YPEfCOAYMj-HCBgg" name="fornecedorInput.endereco" content="fornecedorInput.endereco" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_8nO7UEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoM0z3EfC4eZvd8hG__g" name="fornecedorInput.endereco" content="fornecedorInput.endereco" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Wlm4Ez7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U1UYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setEndereco">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoNUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setEndereco">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U1kYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U10YPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U2EYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoNkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoN0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoOEz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U2UYPEfCOAYMj-HCBgg" name="fornecedorInput.localidade" content="fornecedorInput.localidade" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_9wMugEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoOUz3EfC4eZvd8hG__g" name="fornecedorInput.localidade" content="fornecedorInput.localidade" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_38meAEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U20YPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setLocalidade">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoO0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setLocalidade">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U3EYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U3UYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U3kYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoPEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoPUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoPkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U30YPEfCOAYMj-HCBgg" name="fornecedorInput.codigoPostal" content="fornecedorInput.codigoPostal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-7HCcEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoP0z3EfC4eZvd8hG__g" name="fornecedorInput.codigoPostal" content="fornecedorInput.codigoPostal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_4ndY4Ez7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U4UYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setCodigoPostal">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoQUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setCodigoPostal">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U4kYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U40YPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U5EYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoQkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoQ0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoREz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U5UYPEfCOAYMj-HCBgg" name="fornecedorInput.distrito" content="fornecedorInput.distrito" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_AQjycEYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoRUz3EfC4eZvd8hG__g" name="fornecedorInput.distrito" content="fornecedorInput.distrito" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_5Tv3IEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U50YPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setDistrito">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoR0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setDistrito">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U6EYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U6UYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U6kYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoSEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoSUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoSkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U60YPEfCOAYMj-HCBgg" name="fornecedorInput.contactoEmail" content="fornecedorInput.contactoEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Bcc90EYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoS0z3EfC4eZvd8hG__g" name="fornecedorInput.contactoEmail" content="fornecedorInput.contactoEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_6CS_MEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U7UYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setContactoEmail">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoTUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setContactoEmail">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U7kYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U70YPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U8EYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoTkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoT0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoUEz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U8UYPEfCOAYMj-HCBgg" name="fornecedorInput.contactoTelefone" content="fornecedorInput.contactoTelefone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_CpQIIEYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoUUz3EfC4eZvd8hG__g" name="fornecedorInput.contactoTelefone" content="fornecedorInput.contactoTelefone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_6tDMYEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U80YPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setContactoTelefone">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoU0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setContactoTelefone">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U9EYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U9UYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U9kYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoVEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoVUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoVkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U90YPEfCOAYMj-HCBgg" name="fornecedorInput.tipo" content="fornecedorInput.tipo" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dlo34EYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoV0z3EfC4eZvd8hG__g" name="fornecedorInput.tipo" content="fornecedorInput.tipo" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_7YvNsEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U-UYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setTipo">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoWUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setTipo">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_SD6U-kYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_SD6U-0YPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SD6U_EYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoWkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoW0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoXEz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_SD6U_UYPEfCOAYMj-HCBgg" name="fornecedorInput.status" content="fornecedorInput.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_EjnjEEYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoXUz3EfC4eZvd8hG__g" name="fornecedorInput.status" content="fornecedorInput.status = &quot;Pendente&quot;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_8ij8gEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_SD6U_0YPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setStatus">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoX0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setStatus">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_TM9nzEYPEfCOAYMj-HCBgg">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_TM9nzUYPEfCOAYMj-HCBgg" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_TM9nzkYPEfCOAYMj-HCBgg" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoYEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoYUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoYkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_TM9nz0YPEfCOAYMj-HCBgg" name="fornecedorInput1.forneceuAntes" content="fornecedorInput.forneceuAntes" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_H4EWYEYQEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoY0z3EfC4eZvd8hG__g" name="fornecedorInput.forneceuAntes" content="fornecedorInput.forneceuAntes" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_9PR4kEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_TM9n0UYPEfCOAYMj-HCBgg" type="JAVA_METHOD" expression="setForneceuAntes">
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoZUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setForneceuAntes">
               <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLoZkz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLoZ0z3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLoaEz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLoaUz3EfC4eZvd8hG__g" name="fornecedorInput.encomendaDiretor" content="fornecedorInput.encomendaDiretor" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_-GemUEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_SNLoa0z3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setEncomendaDiretor">
+              <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_SNLobEz3EfC4eZvd8hG__g">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_SNLobUz3EfC4eZvd8hG__g" name="fornecedor" content="fornecedor" type="TYPE_VARIABLE" returnType="com.company.model.Fornecedor">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_SNLobkz3EfC4eZvd8hG__g" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_SNLob0z3EfC4eZvd8hG__g" name="fornecedorInput.reclamacao" content="fornecedorInput.reclamacao" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="__EK9oEz7EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_SNLocUz3EfC4eZvd8hG__g" type="JAVA_METHOD" expression="setReclamacao">
+              <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_swIzOzsAEfCPL8DLEX40qQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -198,33 +220,47 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_swIzPjsAEfCPL8DLEX40qQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_swIzPzsAEfCPL8DLEX40qQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="__EP0gkYIEfCOAYMj-HCBgg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SLHLIkYeEfCPAKo5MWq9SQ" name="FornecedoresList" content="43be3061-b585-4a4c-af6f-d4a65d6a2a36" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_SLHLIkYeEfCPAKo5MWq9SQ" name="InformacoesFornecedor" content="c7eb2817-c649-4c73-9aa2-25a798ce810b" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="__EP0gUYIEfCOAYMj-HCBgg">
-            <inputs xmi:type="process:ContractInput" xmi:id="_SD5tsEYPEfCOAYMj-HCBgg" name="fornecedorInput" type="COMPLEX" dataReference="fornecedor" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tsUYPEfCOAYMj-HCBgg" name="nome" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tskYPEfCOAYMj-HCBgg" name="nif" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5ts0YPEfCOAYMj-HCBgg" name="endereco" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5ttEYPEfCOAYMj-HCBgg" name="localidade" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5ttUYPEfCOAYMj-HCBgg" name="codigoPostal" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5ttkYPEfCOAYMj-HCBgg" name="distrito" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tt0YPEfCOAYMj-HCBgg" name="contactoEmail" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tuEYPEfCOAYMj-HCBgg" name="contactoTelefone" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tuUYPEfCOAYMj-HCBgg" name="tipo" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tukYPEfCOAYMj-HCBgg" name="status" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_SD5tu0YPEfCOAYMj-HCBgg" name="forneceuAntes" type="BOOLEAN" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_SNLBEEz3EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" dataReference="fornecedor" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBEUz3EfC4eZvd8hG__g" name="nome" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBEkz3EfC4eZvd8hG__g" name="nif" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBE0z3EfC4eZvd8hG__g" name="endereco" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBFEz3EfC4eZvd8hG__g" name="localidade" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBFUz3EfC4eZvd8hG__g" name="codigoPostal" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBFkz3EfC4eZvd8hG__g" name="distrito" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBF0z3EfC4eZvd8hG__g" name="contactoEmail" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBGEz3EfC4eZvd8hG__g" name="contactoTelefone" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBGUz3EfC4eZvd8hG__g" name="tipo" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBGkz3EfC4eZvd8hG__g" name="status" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBG0z3EfC4eZvd8hG__g" name="forneceuAntes" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBHEz3EfC4eZvd8hG__g" name="encomendaDiretor" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_SNLBHUz3EfC4eZvd8hG__g" name="reclamacao" createMode="false"/>
             </inputs>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_SNLoIEz3EfC4eZvd8hG__g" expression="fornecedorInput?.nome != null" errorMessage="nome is mandatory for Fornecedor" name="mandatory_fornecedorInput_nome">
+              <inputNames>fornecedorInput</inputNames>
+            </constraints>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_SNLoIUz3EfC4eZvd8hG__g" expression="fornecedorInput?.nif != null" errorMessage="nif is mandatory for Fornecedor" name="mandatory_fornecedorInput_nif">
+              <inputNames>fornecedorInput</inputNames>
+            </constraints>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_SNLoIkz3EfC4eZvd8hG__g" expression="fornecedorInput?.contactoEmail != null" errorMessage="contactoEmail is mandatory for Fornecedor" name="mandatory_fornecedorInput_contactoEmail">
+              <inputNames>fornecedorInput</inputNames>
+            </constraints>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_SNLoI0z3EfC4eZvd8hG__g" expression="fornecedorInput?.tipo != null" errorMessage="tipo is mandatory for Fornecedor" name="mandatory_fornecedorInput_tipo">
+              <inputNames>fornecedorInput</inputNames>
+            </constraints>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="__EP0hEYIEfCOAYMj-HCBgg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_YOCIID7REfCc-JDMu3RBZQ" name="fornecedor" dataType="_swIzZDsAEfCPL8DLEX40qQ" className="com.company.model.Fornecedor">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_89pJH0CREfCdubh3mbnM9w" name="initFornecedor()" content="def fornecedorVar = new com.company.model.Fornecedor()&#xD;&#xA;fornecedorVar.nome = fornecedorInput?.nome&#xD;&#xA;fornecedorVar.nif = fornecedorInput?.nif&#xD;&#xA;fornecedorVar.endereco = fornecedorInput?.endereco&#xD;&#xA;fornecedorVar.localidade = fornecedorInput?.localidade&#xD;&#xA;fornecedorVar.codigoPostal = fornecedorInput?.codigoPostal&#xD;&#xA;fornecedorVar.distrito = fornecedorInput?.distrito&#xD;&#xA;fornecedorVar.contactoEmail = fornecedorInput?.contactoEmail&#xD;&#xA;fornecedorVar.contactoTelefone = fornecedorInput?.contactoTelefone&#xD;&#xA;fornecedorVar.tipo = fornecedorInput?.tipo&#xD;&#xA;fornecedorVar.status = fornecedorInput?.status&#xD;&#xA;fornecedorVar.forneceuAntes = fornecedorInput?.forneceuAntes&#xD;&#xA;return fornecedorVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Fornecedor">
-          <referencedElements xmi:type="process:ContractInput" xmi:id="_89pJIECREfCdubh3mbnM9w" name="fornecedorInput" type="COMPLEX"/>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_43HXwEz2EfC4eZvd8hG__g" name="initFornecedor()" content="def fornecedorVar = new com.company.model.Fornecedor()&#xD;&#xA;fornecedorVar.nome = fornecedorInput?.nome&#xD;&#xA;fornecedorVar.nif = fornecedorInput?.nif&#xD;&#xA;fornecedorVar.endereco = fornecedorInput?.endereco&#xD;&#xA;fornecedorVar.localidade = fornecedorInput?.localidade&#xD;&#xA;fornecedorVar.codigoPostal = fornecedorInput?.codigoPostal&#xD;&#xA;fornecedorVar.distrito = fornecedorInput?.distrito&#xD;&#xA;fornecedorVar.contactoEmail = fornecedorInput?.contactoEmail&#xD;&#xA;fornecedorVar.contactoTelefone = fornecedorInput?.contactoTelefone&#xD;&#xA;fornecedorVar.tipo = fornecedorInput?.tipo&#xD;&#xA;fornecedorVar.status = fornecedorInput?.status&#xD;&#xA;fornecedorVar.forneceuAntes = fornecedorInput?.forneceuAntes&#xD;&#xA;fornecedorVar.encomendaDiretor = fornecedorInput?.encomendaDiretor&#xD;&#xA;fornecedorVar.reclamacao = fornecedorInput?.reclamacao&#xD;&#xA;return fornecedorVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Fornecedor">
+          <referencedElements xmi:type="process:ContractInput" xmi:id="_43HXwUz2EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX"/>
         </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_swIzRDsAEfCPL8DLEX40qQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_R9a3AECEEfCdubh3mbnM9w" name="FORLOInformacaoDeFornecedor" content="b8d0b03d-eb80-4259-8161-5e2655aebd7a" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_R9a3AECEEfCdubh3mbnM9w" name="FORLOInformacaoDeFornecedor" content="6b6bdca2-5b8d-43fd-93c8-e0ffd580b9b4" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_swIzRjsAEfCPL8DLEX40qQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_swIzRzsAEfCPL8DLEX40qQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -290,29 +326,30 @@
         <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_ed9NyExpEfC7vJQ9JxI0Zw" id="GROOVY_SCRIPT"/>
       </configurations>
       <contract xmi:type="process:Contract" xmi:id="_swIzTDsAEfCPL8DLEX40qQ">
-        <inputs xmi:type="process:ContractInput" xmi:id="_89oiAECREfCdubh3mbnM9w" name="fornecedorInput" type="COMPLEX" dataReference="fornecedor">
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJEECREfCdubh3mbnM9w" name="nome"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJEUCREfCdubh3mbnM9w" name="nif"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJEkCREfCdubh3mbnM9w" name="endereco"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJE0CREfCdubh3mbnM9w" name="localidade"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJFECREfCdubh3mbnM9w" name="codigoPostal"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJFUCREfCdubh3mbnM9w" name="distrito"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJFkCREfCdubh3mbnM9w" name="contactoEmail"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJF0CREfCdubh3mbnM9w" name="contactoTelefone"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJGECREfCdubh3mbnM9w" name="tipo"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJGUCREfCdubh3mbnM9w" name="status"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_89pJGkCREfCdubh3mbnM9w" name="forneceuAntes" type="BOOLEAN"/>
+        <inputs xmi:type="process:ContractInput" xmi:id="_43GJoEz2EfC4eZvd8hG__g" name="fornecedorInput" type="COMPLEX" dataReference="fornecedor">
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GJoUz2EfC4eZvd8hG__g" name="nome"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GwsEz2EfC4eZvd8hG__g" name="nif"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GwsUz2EfC4eZvd8hG__g" name="endereco"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gwskz2EfC4eZvd8hG__g" name="localidade"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gws0z2EfC4eZvd8hG__g" name="codigoPostal"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GwtEz2EfC4eZvd8hG__g" name="distrito"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GwtUz2EfC4eZvd8hG__g" name="contactoEmail"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gwtkz2EfC4eZvd8hG__g" name="contactoTelefone"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gwt0z2EfC4eZvd8hG__g" name="tipo"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43GwuUz2EfC4eZvd8hG__g" name="forneceuAntes" type="BOOLEAN"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gwukz2EfC4eZvd8hG__g" name="encomendaDiretor" type="BOOLEAN"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_43Gwu0z2EfC4eZvd8hG__g" name="reclamacao"/>
         </inputs>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_89pJG0CREfCdubh3mbnM9w" expression="fornecedorInput?.nome != null" errorMessage="nome is mandatory for Fornecedor" name="mandatory_fornecedorInput_nome">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_43GwvEz2EfC4eZvd8hG__g" expression="fornecedorInput?.nome != null" errorMessage="nome is mandatory for Fornecedor" name="mandatory_fornecedorInput_nome">
           <inputNames>fornecedorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_89pJHECREfCdubh3mbnM9w" expression="fornecedorInput?.nif != null" errorMessage="nif is mandatory for Fornecedor" name="mandatory_fornecedorInput_nif">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_43GwvUz2EfC4eZvd8hG__g" expression="fornecedorInput?.nif != null" errorMessage="nif is mandatory for Fornecedor" name="mandatory_fornecedorInput_nif">
           <inputNames>fornecedorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_89pJHUCREfCdubh3mbnM9w" expression="fornecedorInput?.contactoEmail != null" errorMessage="contactoEmail is mandatory for Fornecedor" name="mandatory_fornecedorInput_contactoEmail">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_43Gwvkz2EfC4eZvd8hG__g" expression="fornecedorInput?.contactoEmail != null" errorMessage="contactoEmail is mandatory for Fornecedor" name="mandatory_fornecedorInput_contactoEmail">
           <inputNames>fornecedorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_89pJHkCREfCdubh3mbnM9w" expression="fornecedorInput?.tipo != null" errorMessage="tipo is mandatory for Fornecedor" name="mandatory_fornecedorInput_tipo">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_43Gwv0z2EfC4eZvd8hG__g" expression="fornecedorInput?.tipo != null" errorMessage="tipo is mandatory for Fornecedor" name="mandatory_fornecedorInput_tipo">
           <inputNames>fornecedorInput</inputNames>
         </constraints>
       </contract>
