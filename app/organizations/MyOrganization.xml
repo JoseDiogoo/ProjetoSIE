@@ -4,25 +4,33 @@
   <users>
     <user userName="walter.bates">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>walter.bates@mail.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
     <user userName="responsavel1">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>responsavel1@mail.com</email>
+      </professionalData>
       <password encrypted="false">responsavel</password>
       <customUserInfoValues/>
     </user>
     <user userName="fornecedor2">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>fornecedor2@mail.com</email>
+      </professionalData>
       <password encrypted="false">1234</password>
       <customUserInfoValues/>
     </user>
     <user userName="responsavel2">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>responsavel2@mail.com</email>
+      </professionalData>
       <password encrypted="false">responsavel</password>
       <customUserInfoValues/>
     </user>
@@ -30,6 +38,12 @@
       <personalData/>
       <professionalData/>
       <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="gestor">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">gestor</password>
       <customUserInfoValues/>
     </user>
   </users>
@@ -115,6 +129,9 @@
       <displayName>RecursosHumanos</displayName>
       <description>Departamento de RH</description>
     </group>
+    <group name="Gest&#xe3;o">
+      <displayName>Gest&#xe3;o</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
@@ -141,6 +158,11 @@
       <userName>User1</userName>
       <roleName>Member</roleName>
       <groupName>Respons&#xe1;veis</groupName>
+    </membership>
+    <membership>
+      <userName>gestor</userName>
+      <roleName>Member</roleName>
+      <groupName>Gest&#xe3;o</groupName>
     </membership>
   </memberships>
 </organization:Organization>
