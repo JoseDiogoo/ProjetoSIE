@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "32b580ba-9f44-4e43-8030-66ba409c48cc",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750410723252,
+  "lastUpdate" : 1750269751457,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,19 +13,7 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "repeatedCollection" : {
-            "type" : "variable"
-          }
-        },
+        "propertyValues" : { },
         "reference" : "c397257d-9136-4360-ad87-d078b6b9685b",
         "hasValidationError" : false,
         "id" : "pbContainer",
@@ -133,7 +121,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -152,37 +140,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.nome"
+                        "value" : "formInput.fornecedorInput.nome"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : true
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "8df8855e-f6f0-4c17-9b60-52ff3f171eff",
@@ -223,7 +185,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -242,37 +204,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.nif"
+                        "value" : "formInput.fornecedorInput.nif"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : true
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "dfe7e223-d12f-45e4-b668-72ce45de3bb6",
@@ -313,7 +249,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -332,37 +268,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.endereco"
+                        "value" : "formInput.fornecedorInput.endereco"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "31c7fece-7efd-4f43-a47f-a6ba639ba42b",
@@ -403,7 +313,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -422,37 +332,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.localidade"
+                        "value" : "formInput.fornecedorInput.localidade"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "0bf31a54-5656-414f-be5f-71538d3bc21f",
@@ -493,7 +377,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -512,37 +396,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.codigoPostal"
+                        "value" : "formInput.fornecedorInput.codigoPostal"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "0854d5ab-2404-4d3a-86fe-3dcd68a84d0f",
@@ -583,7 +441,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -602,37 +460,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.distrito"
+                        "value" : "formInput.fornecedorInput.distrito"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "34847239-8cd9-4ec8-88e4-3befc6b04559",
@@ -673,7 +505,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -692,37 +524,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.contactoEmail"
+                        "value" : "formInput.fornecedorInput.contactoEmail"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : true
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "957b1918-35a1-4517-b5dd-73c4627aac5f",
@@ -763,7 +569,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -782,37 +588,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.contactoTelefone"
+                        "value" : "formInput.fornecedorInput.contactoTelefone"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "5866d1df-1b95-425e-8f3a-5b51f397ba08",
@@ -853,7 +633,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -872,37 +652,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.tipo"
+                        "value" : "formInput.fornecedorInput.tipo"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : true
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "3a398c29-8586-49a9-a3e7-7f9140dae213",
@@ -943,7 +697,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -962,37 +716,11 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.status"
+                        "value" : "formInput.fornecedorInput.status"
                       },
                       "required" : {
                         "type" : "constant",
                         "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "minLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "maxLength" : {
-                        "type" : "constant",
-                        "value" : ""
-                      },
-                      "debounce" : {
-                        "type" : "constant",
-                        "value" : 0
-                      },
-                      "min" : {
-                        "type" : "constant"
-                      },
-                      "max" : {
-                        "type" : "constant"
-                      },
-                      "step" : {
-                        "type" : "constant",
-                        "value" : 1
                       }
                     },
                     "reference" : "cb803c0f-c92d-49ff-8498-37b10fbd3a4d",
@@ -1025,7 +753,7 @@
                       },
                       "disabled" : {
                         "type" : "constant",
-                        "value" : true
+                        "value" : false
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -1037,15 +765,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedor.forneceuAntes"
-                      },
-                      "required" : {
-                        "type" : "constant",
-                        "value" : false
-                      },
-                      "allowHTML" : {
-                        "type" : "constant",
-                        "value" : false
+                        "value" : "formInput.fornecedorInput.forneceuAntes"
                       }
                     },
                     "reference" : "7a55bef2-61dc-49bd-abf2-b8a3c23312e1",
