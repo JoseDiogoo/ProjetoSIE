@@ -807,13 +807,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VylUoE0PEfCWtIQ5mdH9XA" id="(1.0,0.813953488372093)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VylUoU0PEfCWtIQ5mdH9XA" id="(0.14619883040935672,0.38823529411764707)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qIwjkE0PEfCWtIQ5mdH9XA" type="4001" roundedBendpointsRadius="10" routing="Rectilinear">
-      <children xmi:type="notation:DecorationNode" xmi:id="_qIwjk00PEfCWtIQ5mdH9XA" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_qIwjlE0PEfCWtIQ5mdH9XA" y="-10"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_qIwjkU0PEfCWtIQ5mdH9XA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qIwjkk0PEfCWtIQ5mdH9XA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_yZ3eIE0PEfCWtIQ5mdH9XA" type="4001" element="_yZx-kE0PEfCWtIQ5mdH9XA" source="_qvg24zsOEfCaY-PY1hhrTw" target="_qIuHUE0PEfCWtIQ5mdH9XA" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_yZ4FMk0PEfCWtIQ5mdH9XA" type="6001">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_yZ4FM00PEfCWtIQ5mdH9XA" y="-10"/>
