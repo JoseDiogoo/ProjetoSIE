@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "33dd681c-87c5-4515-9f37-c7225b979d3e",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750360432485,
+  "lastUpdate" : 1750413515990,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -205,7 +205,7 @@
                         },
                         "readOnly" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -229,6 +229,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "b726c511-67f4-42e0-9a25-9cd8106eb878",
@@ -304,7 +330,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAuditoria"
+                          "value" : "avaliacaoFornecedor.dataAuditoria"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -356,7 +382,8 @@
                           "value" : "Checklist Auditoria"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Liste os itens verificados"
                         },
                         "type" : {
                           "type" : "constant",
@@ -368,7 +395,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.checklistAuditoria"
+                          "value" : "avaliacaoFornecedor.checklistAuditoria"
                         },
                         "required" : {
                           "type" : "constant",
@@ -446,7 +473,8 @@
                           "value" : "Documentos Anexados"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Indique os documentos anexados (links,etc...)"
                         },
                         "type" : {
                           "type" : "constant",
@@ -458,7 +486,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.documentosAnexados"
+                          "value" : "avaliacaoFornecedor.documentosAnexados"
                         },
                         "required" : {
                           "type" : "constant",
@@ -536,7 +564,8 @@
                           "value" : "Comentarios Auditoria"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva comentários sobre a auditoria"
                         },
                         "type" : {
                           "type" : "constant",
@@ -548,7 +577,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.comentariosAuditoria"
+                          "value" : "avaliacaoFornecedor.comentariosAuditoria"
                         },
                         "required" : {
                           "type" : "constant",

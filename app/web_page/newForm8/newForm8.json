@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "84097145-c3da-408f-bbea-fa4f79b411a3",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750348853587,
+  "lastUpdate" : 1750411249720,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -208,7 +208,8 @@
                           "value" : "Fornecedor Id"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 123"
                         },
                         "type" : {
                           "type" : "constant",
@@ -220,7 +221,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.fornecedorId"
+                          "value" : "avaliacaoFornecedor.fornecedorId"
                         },
                         "required" : {
                           "type" : "constant",
@@ -326,7 +327,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAvaliacao"
+                          "value" : "avaliacaoFornecedor.dataAvaliacao"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -378,7 +379,8 @@
                           "value" : "Nivel Servico"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Bom, Regular, Insuficiente"
                         },
                         "type" : {
                           "type" : "constant",
@@ -390,7 +392,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.nivelServico"
+                          "value" : "avaliacaoFornecedor.nivelServico"
                         },
                         "required" : {
                           "type" : "constant",
@@ -468,7 +470,8 @@
                           "value" : "Classificacao Desempenho"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 8/10, Excelente, Satisfatório"
                         },
                         "type" : {
                           "type" : "constant",
@@ -480,7 +483,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.classificacaoDesempenho"
                         },
                         "required" : {
                           "type" : "constant",
@@ -558,7 +561,8 @@
                           "value" : "Responsavel Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: João Silva"
                         },
                         "type" : {
                           "type" : "constant",
@@ -570,7 +574,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.responsavelAvaliacao"
+                          "value" : "avaliacaoFornecedor.responsavelAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -648,7 +652,8 @@
                           "value" : "Observacoes Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva observações adicionais"
                         },
                         "type" : {
                           "type" : "constant",
@@ -660,7 +665,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.observacoesAvaliacao"
+                          "value" : "avaliacaoFornecedor.observacoesAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -775,6 +780,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "3044a6da-11c0-49c5-b923-ccc3cac65382",
@@ -827,6 +853,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "00526de9-2f06-4c4b-bfd7-39a98176101a",

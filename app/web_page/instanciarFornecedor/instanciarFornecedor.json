@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "cc8fa7ba-4eb5-45a9-9061-cc4fca6152ae",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750330161204,
+  "lastUpdate" : 1750410658296,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -141,7 +141,8 @@
                           "value" : "Nome"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Fornecedor ABC"
                         },
                         "type" : {
                           "type" : "constant",
@@ -153,7 +154,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.nome"
+                          "value" : "formInput.fornecedor.nome"
                         },
                         "required" : {
                           "type" : "constant",
@@ -231,7 +232,8 @@
                           "value" : "Nif"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 123456789"
                         },
                         "type" : {
                           "type" : "constant",
@@ -243,7 +245,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.nif"
+                          "value" : "formInput.fornecedor.nif"
                         },
                         "required" : {
                           "type" : "constant",
@@ -255,7 +257,7 @@
                         },
                         "minLength" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : 0
                         },
                         "maxLength" : {
                           "type" : "constant",
@@ -321,7 +323,8 @@
                           "value" : "Endereco"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Rua das Flores, 123"
                         },
                         "type" : {
                           "type" : "constant",
@@ -333,7 +336,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.endereco"
+                          "value" : "formInput.fornecedor.endereco"
                         },
                         "required" : {
                           "type" : "constant",
@@ -411,7 +414,8 @@
                           "value" : "Localidade"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Lisboa"
                         },
                         "type" : {
                           "type" : "constant",
@@ -423,11 +427,37 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.localidade"
+                          "value" : "formInput.fornecedor.localidade"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "6d690912-cc20-47e6-a232-a425320040a3",
@@ -475,7 +505,8 @@
                           "value" : "Codigo Postal"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 1000-001"
                         },
                         "type" : {
                           "type" : "constant",
@@ -487,11 +518,37 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.codigoPostal"
+                          "value" : "formInput.fornecedor.codigoPostal"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "75e1476c-033d-42f8-aec0-13449b6cda3d",
@@ -539,7 +596,8 @@
                           "value" : "Distrito"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Lisboa"
                         },
                         "type" : {
                           "type" : "constant",
@@ -551,11 +609,37 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.distrito"
+                          "value" : "formInput.fornecedor.distrito"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "73356c20-f2e6-497b-8bc6-4661cf5d4256",
@@ -603,7 +687,8 @@
                           "value" : "Contacto Email"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: fornecedor@email.com"
                         },
                         "type" : {
                           "type" : "constant",
@@ -615,7 +700,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.contactoEmail"
+                          "value" : "formInput.fornecedor.contactoEmail"
                         },
                         "required" : {
                           "type" : "constant",
@@ -693,7 +778,8 @@
                           "value" : "Contacto Telefone"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 912345678"
                         },
                         "type" : {
                           "type" : "constant",
@@ -705,7 +791,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.contactoTelefone"
+                          "value" : "formInput.fornecedor.contactoTelefone"
                         },
                         "required" : {
                           "type" : "constant",
@@ -762,15 +848,23 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "required" : {
                           "type" : "constant",
                           "value" : true
                         },
                         "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
                           "type" : "constant",
                           "value" : false
                         },
@@ -790,30 +884,36 @@
                           "type" : "constant",
                           "value" : 1
                         },
-                        "inline" : {
-                          "type" : "constant",
-                          "value" : false
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Selecione o tipo de fornecedor(Servico ou Produto)"
                         },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "Serviço",
-                            "Produto"
-                          ]
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "data.formInput.fornecedor.tipo"
                         },
-                        "displayedKey" : {
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
                           "type" : "constant"
                         },
-                        "returnedKey" : {
+                        "max" : {
                           "type" : "constant"
                         },
-                        "selectedValue" : {
-                          "type" : "variable"
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
-                      "reference" : "b056bd7a-f182-44c6-804f-c220a63b9e26",
+                      "reference" : "9eec3007-c963-4cb2-9125-2b2850617fe4",
                       "hasValidationError" : false,
-                      "id" : "pbRadioButtons"
+                      "id" : "pbInput"
                     }
                   ],
                   [
@@ -855,7 +955,8 @@
                           "value" : "Status"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Selecione o status do fornecedor"
                         },
                         "type" : {
                           "type" : "constant",
@@ -867,7 +968,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.status"
+                          "value" : "formInput.fornecedor.status"
                         },
                         "required" : {
                           "type" : "constant",
@@ -942,7 +1043,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.fornecedorInput.forneceuAntes"
+                          "value" : "formInput.fornecedor.forneceuAntes"
                         },
                         "required" : {
                           "type" : "constant",
@@ -1035,6 +1136,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "a640ed03-4e80-453f-a41d-8e923a589727",
@@ -1087,6 +1209,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "143e544e-ad5d-43a0-99de-7757be62f66c",

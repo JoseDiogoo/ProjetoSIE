@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "df3ae4cf-acf7-45e7-9c12-8209090a4b18",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750352957314,
+  "lastUpdate" : 1750413998447,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -220,7 +220,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.fornecedorId"
+                          "value" : "avaliacaoFornecedor.fornecedorId"
                         },
                         "required" : {
                           "type" : "constant",
@@ -326,7 +326,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAvaliacao"
+                          "value" : "avaliacaoFornecedor.dataAvaliacao"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -383,7 +383,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Classificação Desempenho"
+                          "value" : "Condicoes Fornecimento"
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -394,11 +394,12 @@
                           "value" : 4
                         },
                         "placeholder" : {
-                          "type" : "interpolation"
+                          "type" : "interpolation",
+                          "value" : "Ex: Limite até 10.000€, prazo 30 dias, etc."
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "data:avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.condicoesFornecimento"
                         },
                         "debounce" : {
                           "type" : "constant",
@@ -463,7 +464,8 @@
                           "value" : "Classificacao Desempenho"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 8/10, Bom, Satisfatório"
                         },
                         "type" : {
                           "type" : "constant",
@@ -475,7 +477,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.classificacaoDesempenho"
                         },
                         "required" : {
                           "type" : "constant",
@@ -550,10 +552,11 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Observacoes Avaliacao"
+                          "value" : "Responsavel Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: João Silva"
                         },
                         "type" : {
                           "type" : "constant",
@@ -565,11 +568,11 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.observacoesAvaliacao"
+                          "value" : "avaliacaoFornecedor.responsavelAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -598,7 +601,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "95b053bc-d93d-4a93-9231-3ca049a302ee",
+                      "reference" : "b25722a3-ffc9-4754-aca8-2169c21ca3e5",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -640,10 +643,11 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Responsavel Avaliacao"
+                          "value" : "Observacoes Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva observações adicionais"
                         },
                         "type" : {
                           "type" : "constant",
@@ -655,11 +659,11 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.responsavelAvaliacao"
+                          "value" : "avaliacaoFornecedor.observacoesAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -688,7 +692,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "b25722a3-ffc9-4754-aca8-2169c21ca3e5",
+                      "reference" : "95b053bc-d93d-4a93-9231-3ca049a302ee",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""

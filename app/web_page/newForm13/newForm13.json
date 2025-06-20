@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "20f0d6f1-18d4-4769-bbe8-5e07ab74f1f8",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750351263166,
+  "lastUpdate" : 1750414064207,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -220,7 +220,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.fornecedorId"
+                          "value" : "avaliacaoFornecedor.fornecedorId"
                         },
                         "required" : {
                           "type" : "constant",
@@ -326,7 +326,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAvaliacao"
+                          "value" : "avaliacaoFornecedor.dataAvaliacao"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -378,7 +378,8 @@
                           "value" : "Nao Conformidades"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Descreva as não conformidades encontradas"
                         },
                         "type" : {
                           "type" : "constant",
@@ -390,7 +391,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.naoConformidades"
+                          "value" : "avaliacaoFornecedor.naoConformidades"
                         },
                         "required" : {
                           "type" : "constant",
@@ -468,7 +469,8 @@
                           "value" : "Descricao Nao Conformidades"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Detalhe as não conformidades"
                         },
                         "type" : {
                           "type" : "constant",
@@ -480,7 +482,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.descricaoNaoConformidades"
+                          "value" : "avaliacaoFornecedor.descricaoNaoConformidades"
                         },
                         "required" : {
                           "type" : "constant",
@@ -558,7 +560,8 @@
                           "value" : "Classificacao Desempenho"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 6/10, Insuficiente"
                         },
                         "type" : {
                           "type" : "constant",
@@ -570,7 +573,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.classificacaoDesempenho"
                         },
                         "required" : {
                           "type" : "constant",
@@ -648,7 +651,8 @@
                           "value" : "Responsavel Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Carlos Rocha"
                         },
                         "type" : {
                           "type" : "constant",
@@ -660,7 +664,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.responsavelAvaliacao"
+                          "value" : "avaliacaoFornecedor.responsavelAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -738,7 +742,8 @@
                           "value" : "Observacoes Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva observações adicionais"
                         },
                         "type" : {
                           "type" : "constant",
@@ -750,7 +755,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.observacoesAvaliacao"
+                          "value" : "avaliacaoFornecedor.observacoesAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",

@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "26c616de-d782-4fb3-b40d-17a6b14a890c",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750350800805,
+  "lastUpdate" : 1750414105576,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -220,7 +220,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.fornecedorId"
+                          "value" : "avaliacaoFornecedor.fornecedorId"
                         },
                         "required" : {
                           "type" : "constant",
@@ -326,7 +326,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAvaliacao"
+                          "value" : "avaliacaoFornecedor.dataAvaliacao"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -378,7 +378,8 @@
                           "value" : "Formacao/Certificacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: ISO 9001, HACCP"
                         },
                         "type" : {
                           "type" : "constant",
@@ -390,7 +391,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.formacaoCertificacao"
+                          "value" : "avaliacaoFornecedorformacaoCertificacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -468,7 +469,8 @@
                           "value" : "Classificacao Desempenho"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 9/10, Muito Bom"
                         },
                         "type" : {
                           "type" : "constant",
@@ -480,7 +482,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.classificacaoDesempenho"
                         },
                         "required" : {
                           "type" : "constant",
@@ -558,7 +560,8 @@
                           "value" : "Responsavel Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Ana Pereira"
                         },
                         "type" : {
                           "type" : "constant",
@@ -570,7 +573,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.responsavelAvaliacao"
+                          "value" : "avaliacaoFornecedor.responsavelAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -648,7 +651,8 @@
                           "value" : "Observacoes Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva observações adicionais"
                         },
                         "type" : {
                           "type" : "constant",
@@ -660,7 +664,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.observacoesAvaliacao"
+                          "value" : "avaliacaoFornecedor.observacoesAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",

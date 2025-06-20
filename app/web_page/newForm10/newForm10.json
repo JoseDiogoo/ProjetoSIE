@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "a39dce4b-f7a2-4fe8-948b-8a295c1234ea",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750350087183,
+  "lastUpdate" : 1750413598865,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -220,7 +220,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.fornecedorId"
+                          "value" : "avaliacaoFornecedor.fornecedorId"
                         },
                         "required" : {
                           "type" : "constant",
@@ -326,7 +326,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.dataAvaliacao"
+                          "value" : "avaliacaoFornecedor.dataAvaliacao"
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -378,7 +378,8 @@
                           "value" : "Avaliacao Incidentes"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Descreva a gestão de incidentes"
                         },
                         "type" : {
                           "type" : "constant",
@@ -390,7 +391,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.avaliacaoIncidentes"
+                          "value" : "avaliacaoFornecedor.avaliacaoIncidentes"
                         },
                         "required" : {
                           "type" : "constant",
@@ -484,11 +485,12 @@
                           "value" : 4
                         },
                         "placeholder" : {
-                          "type" : "interpolation"
+                          "type" : "interpolation",
+                          "value" : "Ex: 2"
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.numeroIncidentes"
+                          "value" : "avaliacaoFornecedor.numeroIncidentes"
                         },
                         "debounce" : {
                           "type" : "constant",
@@ -553,7 +555,8 @@
                           "value" : "Classificacao Desempenho"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: 7/10, Bom, Regular"
                         },
                         "type" : {
                           "type" : "constant",
@@ -565,7 +568,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.classificacaoDesempenho"
+                          "value" : "avaliacaoFornecedor.classificacaoDesempenho"
                         },
                         "required" : {
                           "type" : "constant",
@@ -643,7 +646,8 @@
                           "value" : "Responsavel Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Ex: Maria Costa"
                         },
                         "type" : {
                           "type" : "constant",
@@ -655,7 +659,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.responsavelAvaliacao"
+                          "value" : "avaliacaoFornecedor.responsavelAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
@@ -733,7 +737,8 @@
                           "value" : "Observacoes Avaliacao"
                         },
                         "placeholder" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : "Escreva observações adicionais"
                         },
                         "type" : {
                           "type" : "constant",
@@ -745,7 +750,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "avaliacaoFornecedorInput.observacoesAvaliacao"
+                          "value" : "avaliacaoFornecedor.observacoesAvaliacao"
                         },
                         "required" : {
                           "type" : "constant",
