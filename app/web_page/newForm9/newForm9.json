@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "2792dabb-cd0f-43b2-bb45-f19cc30080f3",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750367962709,
+  "lastUpdate" : 1750369441061,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -201,7 +201,7 @@
                         },
                         "readOnly" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -357,15 +357,23 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "disabled" : {
+                        "required" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
                         "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
                           "type" : "constant",
                           "value" : false
                         },
@@ -383,32 +391,38 @@
                         },
                         "labelWidth" : {
                           "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : ""
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "avaliacaoFornecedorInput.naoConformidades"
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
                           "value" : 1
-                        },
-                        "inline" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "Yes",
-                            "No"
-                          ]
-                        },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
-                        },
-                        "selectedValue" : {
-                          "type" : "variable"
                         }
                       },
-                      "reference" : "cd6c2440-a404-467b-925c-5d8aea426c9f",
+                      "reference" : "606d7018-a314-4a0c-9479-9a6d2bddb320",
                       "hasValidationError" : false,
-                      "id" : "pbRadioButtons"
+                      "id" : "pbInput"
                     }
                   ],
                   [
@@ -847,6 +861,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "044a6c8b-6ad8-4828-94e5-d7db08b5bbae",
