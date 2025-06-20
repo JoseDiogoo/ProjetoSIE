@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "32b580ba-9f44-4e43-8030-66ba409c48cc",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750269751457,
+  "lastUpdate" : 1750432870057,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -121,7 +121,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -145,6 +145,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "8df8855e-f6f0-4c17-9b60-52ff3f171eff",
@@ -185,7 +211,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -209,6 +235,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "dfe7e223-d12f-45e4-b668-72ce45de3bb6",
@@ -249,7 +301,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -273,6 +325,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "31c7fece-7efd-4f43-a47f-a6ba639ba42b",
@@ -313,7 +391,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -337,6 +415,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "0bf31a54-5656-414f-be5f-71538d3bc21f",
@@ -377,7 +481,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -401,6 +505,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "0854d5ab-2404-4d3a-86fe-3dcd68a84d0f",
@@ -441,7 +571,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -465,6 +595,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "34847239-8cd9-4ec8-88e4-3befc6b04559",
@@ -505,7 +661,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -529,6 +685,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "957b1918-35a1-4517-b5dd-73c4627aac5f",
@@ -569,7 +751,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -593,6 +775,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "5866d1df-1b95-425e-8f3a-5b51f397ba08",
@@ -633,7 +841,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -657,6 +865,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "3a398c29-8586-49a9-a3e7-7f9140dae213",
@@ -697,7 +931,7 @@
                       },
                       "readOnly" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -721,6 +955,32 @@
                       "required" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "debounce" : {
+                        "type" : "constant",
+                        "value" : 0
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
                       }
                     },
                     "reference" : "cb803c0f-c92d-49ff-8498-37b10fbd3a4d",
@@ -753,7 +1013,7 @@
                       },
                       "disabled" : {
                         "type" : "constant",
-                        "value" : false
+                        "value" : true
                       },
                       "label" : {
                         "type" : "interpolation",
@@ -766,6 +1026,14 @@
                       "value" : {
                         "type" : "variable",
                         "value" : "formInput.fornecedorInput.forneceuAntes"
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
                       }
                     },
                     "reference" : "7a55bef2-61dc-49bd-abf2-b8a3c23312e1",
