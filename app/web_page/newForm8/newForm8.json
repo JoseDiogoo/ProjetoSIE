@@ -1,0 +1,46 @@
+{
+  "id" : "newForm8",
+  "name" : "newForm8",
+  "type" : "form",
+  "uuid" : "2a2d0dff-8410-491b-abd0-209931f5ed28",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1750432289357,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "c0f54b83-38fa-45fa-9378-7e4cc82445f3",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      }
+    ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "e425d844-fda5-457d-be0d-fb164bd590a4",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "f31f07e3-a2a4-45ba-8557-af0bd65f4999",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
