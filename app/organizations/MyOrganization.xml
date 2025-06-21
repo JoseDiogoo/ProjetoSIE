@@ -46,6 +46,12 @@
       <password encrypted="false">gestor</password>
       <customUserInfoValues/>
     </user>
+    <user userName="admin">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">admin</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Member">
@@ -163,6 +169,11 @@
       <userName>gestor</userName>
       <roleName>Member</roleName>
       <groupName>Gest&#xe3;o</groupName>
+    </membership>
+    <membership>
+      <userName>admin</userName>
+      <roleName>Member</roleName>
+      <groupName>Administra&#xe7;&#xe3;o</groupName>
     </membership>
   </memberships>
 </organization:Organization>
