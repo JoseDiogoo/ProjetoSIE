@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "32b580ba-9f44-4e43-8030-66ba409c48cc",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750432870057,
+  "lastUpdate" : 1750465216324,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -140,7 +140,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.nome"
+                        "value" : "fornecedor.nome"
                       },
                       "required" : {
                         "type" : "constant",
@@ -230,7 +230,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.nif"
+                        "value" : "fornecedor.nif"
                       },
                       "required" : {
                         "type" : "constant",
@@ -320,7 +320,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.endereco"
+                        "value" : "fornecedor.endereco"
                       },
                       "required" : {
                         "type" : "constant",
@@ -410,7 +410,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.localidade"
+                        "value" : "fornecedor.localidade"
                       },
                       "required" : {
                         "type" : "constant",
@@ -500,7 +500,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.codigoPostal"
+                        "value" : "fornecedor.codigoPostal"
                       },
                       "required" : {
                         "type" : "constant",
@@ -590,7 +590,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.distrito"
+                        "value" : "fornecedor.distrito"
                       },
                       "required" : {
                         "type" : "constant",
@@ -680,7 +680,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.contactoEmail"
+                        "value" : "fornecedor.contactoEmail"
                       },
                       "required" : {
                         "type" : "constant",
@@ -770,7 +770,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.contactoTelefone"
+                        "value" : "fornecedor.contactoTelefone"
                       },
                       "required" : {
                         "type" : "constant",
@@ -860,7 +860,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.tipo"
+                        "value" : "fornecedor.tipo"
                       },
                       "required" : {
                         "type" : "constant",
@@ -950,7 +950,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.status"
+                        "value" : "fornecedor.status"
                       },
                       "required" : {
                         "type" : "constant",
@@ -1025,7 +1025,7 @@
                       },
                       "value" : {
                         "type" : "variable",
-                        "value" : "formInput.fornecedorInput.forneceuAntes"
+                        "value" : "fornecedor.forneceuAntes"
                       },
                       "required" : {
                         "type" : "constant",
@@ -1049,7 +1049,29 @@
       }
     ]
   ],
-  "variables" : { },
+  "variables" : {
+    "caseId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "processInstance" : {
+      "type" : "url",
+      "value" : [
+        "/API/bpm/case/{{caseId}}"
+      ],
+      "exposed" : false
+    },
+    "fornecedor" : {
+      "type" : "url",
+      "value" : [
+        "/API/bdm/businessData/Fornecedor/{{ processInstance.variables.find(v => v.name === 'fornecedorId').value }}"
+      ],
+      "exposed" : false
+    }
+  },
   "assets" : [
     {
       "id" : "9d46b094-def6-4c3e-b25e-d090ce80bcfa",
